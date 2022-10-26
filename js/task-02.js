@@ -12,7 +12,7 @@ for (let index = 0; index < ingredients.length; index++) {
   const liIngredients = document.createElement("li");
   liIngredients.textContent = ingredients[index];
   liIngredients.class = "item";
-  ul.prepend(liIngredients);
+  ul.append(liIngredients);
   console.log(ul);
   console.log(liIngredients.class);
 }
