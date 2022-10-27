@@ -17,7 +17,7 @@ console.log(ul);
 const [...image] = images;
 const markup = image.map(
   (imag) =>
-    `<li class="list-item"><img class = "img" url: "${imag.url}", alt: "${imag.alt}", width="370", height="294",/></li>`
+    `<li class="list-item"><img class = "img" src="${imag.url}", alt="${imag.alt}", width="370", height="294",/></li>`
 );
 // ul.insertAdjacentHTML("beforeend", markup);
 ul.insertAdjacentHTML("afterbegin", markup);
