@@ -10,8 +10,8 @@ const refs = {
 
 const setBg = (event) => {
   const randomColor = getRandomHexColor();
-  refs.body.attributes["style"].textContent = randomColor;
   // refs.body.style.backgroundColor = randomColor;
+  refs.body.setAttribute("style", `background-color: ${randomColor}`);
   refs.span.innerHTML = randomColor;
   // refs.span.textContent = randomColor;
 };
