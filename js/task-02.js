@@ -13,6 +13,6 @@ for (let index = 0; index < ingredients.length; index++) {
   liIngredients.textContent = ingredients[index];
   liIngredients.class = "item";
   ul.append(liIngredients);
-  console.log(ul);
-  console.log(liIngredients.class);
+  // console.log(ul);
+  console.log(liIngredients);
 }
