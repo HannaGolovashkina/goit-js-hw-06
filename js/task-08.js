@@ -16,7 +16,8 @@ function onFormSubmit(event) {
     const userDetails = { email: email.value, password: password.value };
     // elements[key].focus();
     alert("Все поля должны быть заполнены!");
-    return;
+    return form.reset();
   }
   console.log(data);
+  form.reset();
 }
